@@ -1,0 +1,76 @@
+body{
+    background-color: bisque;
+    line-height: 1.9!important;
+}
+
+
+.x{
+    color: rgb(5,40,69);
+    color: rgb(255,211,35);
+}
+
+
+@media (min-width: 768px) {
+    .tabla_normal.tabla_azul_ucb .fila:not(:nth-child(1)) .campo{
+        display: none;
+    }  
+    .tabla_normal.tabla_azul_ucb .fila:nth-child(1) .campo{
+        padding: 15px;
+    }  
+}
+.tabla_normal.tabla_azul_ucb{
+    border: 1px solid #dee2e6;
+    background-color: white;
+    padding: 15px 15px 0 15px;
+    border-radius: 15px;
+}
+.tabla_normal.tabla_azul_ucb .titulo_tabla .titulo{
+    font-weight: bold;
+    color: rgb(5,40,69)!important; 
+    padding-bottom: 15px;
+}
+.tabla_normal.tabla_azul_ucb .tabla{
+    border: 1px solid #dee2e6;
+    /* border-bottom: 1px solid rgb(255,211,35); */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.tabla_normal.tabla_azul_ucb .tabla .fila{
+    border-bottom: 1px solid #dee2e6;
+}
+.tabla_normal.tabla_azul_ucb .tabla .fila:nth-child(even) .campo{
+    background-color:  rgb(5,40,69); 
+    color: white;
+    border-bottom: 1px solid #dee2e6;
+    overflow: hidden;
+}
+.tabla_normal.tabla_azul_ucb .tabla .fila:nth-child(odd) .campo{
+    background-color: rgb(255,211,35);
+    font-weight: bold;
+    border-bottom: 1px solid #dee2e6;
+    overflow: hidden;
+}
+.tabla_normal.tabla_azul_ucb .tabla .fila .valor{
+    overflow: hidden;
+}
+
+.tabla_normal.tabla_azul_ucb .descripcion_tabla{
+    /* padding: 12px; */
+}
+.icon-background{
+    color: rgb(255,211,35);
+}
+.icon-color{
+    color: white;
+}
+.dropdown-menu.show{
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    text-align: right;
+    width: auto;
+    padding: 0;
+}
+.dropdown-item{
+    padding: 0;
+}
